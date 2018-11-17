@@ -1,0 +1,57 @@
+$(document).ready(function(){
+   $("#change").click(function(){
+      $("#dischange").show(1000);
+      $("#register").hide(1000);
+      $("#alloca").hide(1000);
+   }); 
+    $("#rtime").click(function(){
+      $("#regtime").show(1000); 
+   }); 
+   $("#viewcourse").click(function(){
+      $("#venue").hide(1000);
+      $("#view").show(1000); 
+   });
+    $("#viewvenue").click(function(){
+      $("#view").hide(1000);
+      $("#venue").show(1000); 
+   });
+   $("#allocate").click(function(){
+      $("#view").hide(1000);
+      $("#venue").hide(1000);
+      $("#allo").show(1000); 
+   });
+   $("#viewallocation").click(function(){
+      $("#view").hide(1000);
+      $("#venue").hide(1000);
+      $("#allo").hide(1000);
+      $("#detail").hide(1000);
+      $("#viewallo").show(1000);
+   });
+    $("#reg").click(function(){
+      $("#dischange").hide(1000);
+      $("#register").show(1000);
+      $("#alloca").hide(1000);
+      $("#view").hide(1000);
+      $("#venue").hide(1000);
+   });
+    $("#allo").click(function(){
+      $("#dischange").hide(1000);
+      $("#register").hide(1000);
+      $("#alloca").show(1000);
+      $("#view").hide(1000);
+      $("#venue").hide(1000);
+   });
+    $("#viewlec").click(function(){
+      $("#dischange").hide(1000);
+      $("#register").hide(1000);
+      $("#alloca").hide(1000);
+      $("#view").show(1000);
+      $("#venue").show(1000);
+   });
+   $("#timeb").click(function(){
+      $("#hnormal").hide(1000);
+      $("#time").show(1000);
+   });
+});
+
+
